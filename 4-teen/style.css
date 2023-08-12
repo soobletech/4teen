@@ -1,0 +1,151 @@
+/*Head part starts here*/
+
+p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 2em;
+}
+
+.title {
+    font-size: 3rem;
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+}
+
+body{
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    margin-bottom: 100px;
+    background-color: #DDE6ED;
+    padding-top: 45px;
+}
+
+#header{
+    background-color: #27374D;
+    display: flex;
+    height: 50px;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+}
+
+#header-one{
+    width: 220px;
+}
+
+#menu{
+    width: 30px;
+    margin-left: 20px;
+    margin-right: 10px;
+    margin-bottom: 7px;
+}
+
+#menu:hover{
+    cursor: pointer;
+}
+
+#logo{
+    width: 150px;
+    margin-top: 4px;
+}
+
+#header-two{
+    flex:auto;
+    text-align: center;
+}
+
+#searchbar{
+    width: 500px;
+    font-family: Roboto, Raleway, 'sans serif';
+    font-size: 15px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    padding-left: 15px;
+    margin-top: 9px;
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+    border: none;
+    box-shadow: inset 2px 2px 3px rgb(0, 0, 0, 0.2);
+}
+
+#search-button{
+    width: 22px;
+    vertical-align: middle;
+    background-color: white;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-left: -20px;
+    padding-right: 10px;
+    padding-left: 10px;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+    box-shadow: inset -2px 2px 3px rgb(0, 0, 0, 0.2);
+    border-left: none;
+    transition: 0.3s;
+}
+
+#search-button:hover{
+    cursor: pointer;
+    background-color: rgb(221, 220, 220);
+}
+
+#search-button:active{
+    background-color: rgb(168, 168, 168);
+}
+
+#header-three{
+    width: 240px;
+    display: flex;
+}
+
+#cart{
+    width: 30px;
+    height: 27px;
+    margin-top: 12px;
+    margin-left: 10px;
+    margin-right: 12px;
+}
+
+#cart:hover{
+    cursor: pointer;
+}
+
+#log-box{
+    display: inline-block;
+    margin-left: 30px;
+    padding-left: 10px;
+}
+
+/* #help, #log-in{
+    font-family: Quicksand, Roboto, Raleway, 'sans serif';
+    font-size: 15px;
+    margin-top: 10px;
+    margin-right: 5px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border: none;
+    transition: 0.3s;
+    border-radius: 10px;
+    background-color: #DDE6ED;
+    color:rgb(90, 90, 90);
+    box-shadow: inset 2px 2px 3px rgba(22, 28, 39, 0.3);
+} */
+
+#log-in:hover, #help:hover{
+    cursor: pointer;
+    opacity: 0.8;
+}
+
+#log-in:active, #help:active{
+    opacity: 0.6;
+}
+
+a{
+    text-decoration: none;
+}
+
+
+/*Body part starts here*/
+
